@@ -1,0 +1,124 @@
+aid: wired
+name: Wired
+description: >-
+  Wired (https://www.wired.com/) is an American technology and culture magazine
+  published by Condé Nast, covering how emerging technologies affect culture,
+  the economy, and politics. Founded in 1993 by Louis Rossetto and Jane Metcalfe,
+  Wired quickly became a defining voice of the digital economy and technology
+  journalism. The publication covers technology, science, business, design, and
+  innovation in both print and digital editions, and operates a major YouTube
+  channel, podcasts, and newsletters. Wired does not offer a public developer API
+  but provides RSS feeds for programmatic content consumption across its main feed
+  and topic-specific categories.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Media
+  - Technology News
+  - Science
+  - Innovation
+url: https://raw.githubusercontent.com/api-evangelist/wired/refs/heads/main/apis.yml
+created: '2026-03-24'
+modified: '2026-03-24'
+specificationVersion: '0.19'
+apis:
+  - aid: wired:rss-feed
+    name: Wired RSS Feed
+    description: >-
+      Wired provides RSS feeds for its main content stream and individual topic
+      categories including Business, Science, Security, Politics, Gear, Ideas,
+      Culture, and AI. These standard RSS feeds allow developers and readers to
+      consume Wired content programmatically using any feed parsing library or
+      RSS reader tool.
+    humanURL: https://www.wired.com/feed/rss
+    baseURL: https://www.wired.com
+    tags:
+      - RSS
+      - News
+      - Feed
+      - Syndication
+    properties:
+      - type: Documentation
+        url: https://www.wired.com/feed/rss
+      - type: RSSFeed
+        url: https://www.wired.com/feed/rss
+common:
+  - url: https://www.wired.com/
+    name: Wired
+    type: Website
+    description: 'null'
+  - url: https://www.wired.com/about/
+    name: About Wired
+    type: About
+    description: 'null'
+  - url: https://www.wired.com/feed/rss
+    name: Wired RSS Feed
+    type: RSSFeed
+    description: 'null'
+  - url: https://www.wired.com/feed/category/business/latest/rss
+    name: Wired Business RSS Feed
+    type: RSSFeed
+    description: 'null'
+  - url: https://www.wired.com/feed/category/science/latest/rss
+    name: Wired Science RSS Feed
+    type: RSSFeed
+    description: 'null'
+  - url: https://www.wired.com/feed/category/security/latest/rss
+    name: Wired Security RSS Feed
+    type: RSSFeed
+    description: 'null'
+  - url: https://www.wired.com/feed/category/gear/latest/rss
+    name: Wired Gear RSS Feed
+    type: RSSFeed
+    description: 'null'
+  - url: https://www.wired.com/feed/tag/ai/latest/rss
+    name: Wired AI RSS Feed
+    type: RSSFeed
+    description: 'null'
+  - url: https://subscribe.wired.com/
+    name: Wired Subscription
+    type: Subscription
+    description: 'null'
+  - url: https://www.wired.com/newsletter/
+    name: Wired Newsletter
+    type: Newsletter
+    description: 'null'
+  - url: https://www.condenast.com/privacy-policy
+    name: Privacy Policy
+    type: PrivacyPolicy
+    description: 'null'
+  - url: https://www.condenast.com/user-agreement
+    name: Terms of Service
+    type: TermsOfService
+    description: 'null'
+  - url: https://www.wired.com/about/advertising-info/
+    name: Advertise with Wired
+    type: Advertising
+    description: 'null'
+  - url: https://www.condenast.com/careers/
+    name: Careers at Condé Nast
+    type: Careers
+    description: 'null'
+  - url: https://www.youtube.com/wired
+    name: Wired on YouTube
+    type: YouTube
+    description: 'null'
+  - url: https://x.com/wired
+    name: Wired on X
+    type: X
+    description: 'null'
+  - url: https://www.linkedin.com/company/wired
+    name: Wired on LinkedIn
+    type: LinkedIn
+    description: 'null'
+  - url: https://www.instagram.com/wired/
+    name: Wired on Instagram
+    type: Instagram
+    description: 'null'
+  - url: https://www.tiktok.com/@wired
+    name: Wired on TikTok
+    type: TikTok
+    description: 'null'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
