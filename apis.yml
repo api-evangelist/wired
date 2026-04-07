@@ -1,15 +1,12 @@
 aid: wired
 name: Wired
 description: >-
-  Wired (https://www.wired.com/) is an American technology and culture magazine
-  published by Condé Nast, covering how emerging technologies affect culture,
-  the economy, and politics. Founded in 1993 by Louis Rossetto and Jane Metcalfe,
-  Wired quickly became a defining voice of the digital economy and technology
-  journalism. The publication covers technology, science, business, design, and
-  innovation in both print and digital editions, and operates a major YouTube
-  channel, podcasts, and newsletters. Wired does not offer a public developer API
-  but provides RSS feeds for programmatic content consumption across its main feed
-  and topic-specific categories.
+  Wired (https://www.wired.com/) is an American technology and culture magazine published
+  by Condé Nast, covering how emerging technologies affect culture, the economy, and
+  politics. Founded in 1993 by Louis Rossetto and Jane Metcalfe, Wired quickly became
+  a defining voice of the digital economy and technology journalism. The publication
+  covers technology, science, business, design, and innovation in both print and digital
+  editions, and operates a major YouTube channel, podcasts, and newsletters.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -17,7 +14,8 @@ tags:
   - Technology News
   - Science
   - Innovation
-url: https://raw.githubusercontent.com/api-evangelist/wired/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/wired/refs/heads/main/apis.yml
 created: '2026-03-24'
 modified: '2026-03-24'
 specificationVersion: '0.19'
