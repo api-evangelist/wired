@@ -1,0 +1,16 @@
+{
+  "name": "Wired Article",
+  "description": "Structure of a Wired article as served through the RSS feed.",
+  "fields": [
+    { "name": "title", "type": "string", "required": true, "description": "Article headline." },
+    { "name": "description", "type": "string", "required": false, "description": "Article summary or excerpt." },
+    { "name": "link", "type": "string (URI)", "required": true, "description": "URL to the full article." },
+    { "name": "pubDate", "type": "string (date-time)", "required": true, "description": "Publication date in RFC 2822 format." },
+    { "name": "author", "type": "string", "required": false, "description": "Article author byline." },
+    { "name": "category", "type": "array<string>", "required": false, "description": "Topic categories (Science, Security, AI, etc.)." },
+    { "name": "guid", "type": "string", "required": false, "description": "Globally unique identifier (canonical URL)." },
+    { "name": "enclosure", "type": "object", "required": false, "description": "Media attachment with url, type, and length fields." },
+    { "name": "content", "type": "string (HTML)", "required": false, "description": "Full or partial article content." },
+    { "name": "thumbnail", "type": "string (URI)", "required": false, "description": "Featured image URL." }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/api-evangelist/wired/blob/main/json-schema/wired-article-schema.json",
+  "title": "Wired Article",
+  "description": "A Wired magazine article as represented in RSS feed entries.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The headline of the article."
+    },
+    "description": {
+      "type": "string",
+      "description": "A short summary or excerpt of the article."
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "The URL of the full article on wired.com."
+    },
+    "pubDate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The publication date and time of the article in RFC 2822 format."
+    },
+    "author": {
+      "type": "string",
+      "description": "The byline author of the article."
+    },
+    "category": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Category or topic tags associated with the article (e.g., Science, Security, AI)."
+    },
+    "guid": {
+      "type": "string",
+      "description": "Globally unique identifier for this article (typically the canonical URL)."
+    },
+    "enclosure": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "type": { "type": "string" },
+        "length": { "type": "integer" }
+      },
+      "description": "Media attachment (image or file) associated with the article."
+    },
+    "content": {
+      "type": "string",
+      "description": "Full or partial article content in HTML format (from content:encoded RSS field)."
+    },
+    "thumbnail": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the article's featured image."
+    }
+  },
+  "required": ["title", "link", "pubDate"]
+}

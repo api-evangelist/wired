@@ -1,0 +1,81 @@
+vocabulary:
+  name: Wired Vocabulary
+  description: >-
+    Domain vocabulary for Wired magazine covering technology journalism,
+    content distribution, media concepts, and the technology topics covered
+    by Wired including science, security, AI, business, and culture.
+  version: '2026-05-03'
+  tags:
+    - Content
+    - Innovation
+    - Media
+    - News
+    - Technology
+
+  domains:
+    - name: Content Distribution
+      description: Terms related to how Wired distributes its content programmatically.
+      terms:
+        - term: RSS Feed
+          definition: >-
+            Really Simple Syndication — a web feed format that allows programs
+            to automatically check for and receive updated content from websites.
+        - term: Syndication
+          definition: >-
+            The practice of making content available to third parties for
+            republication or consumption through standardized feed formats.
+        - term: Content Category
+          definition: >-
+            A thematic grouping of articles on Wired, such as Business, Science,
+            Security, Politics, Gear, Ideas, Culture, or AI.
+        - term: Newsletter
+          definition: >-
+            A curated email digest of Wired articles, analysis, and commentary
+            delivered to subscribers on a regular schedule.
+
+    - name: Technology Journalism
+      description: Terms related to Wired's editorial coverage areas.
+      terms:
+        - term: Gear
+          definition: >-
+            Wired's coverage of consumer technology products including gadgets,
+            phones, laptops, and other hardware reviewed and recommended.
+        - term: Science
+          definition: >-
+            Wired's editorial coverage of scientific research, discoveries,
+            and the intersection of science with technology and culture.
+        - term: Security
+          definition: >-
+            Wired's coverage of cybersecurity, privacy, hacking, data breaches,
+            and digital surveillance topics.
+        - term: Business
+          definition: >-
+            Wired's reporting on technology companies, startups, the digital
+            economy, and the business impact of emerging technologies.
+        - term: AI
+          definition: >-
+            Wired's coverage of artificial intelligence research, applications,
+            industry developments, and societal implications.
+        - term: Politics
+          definition: >-
+            Wired's coverage of technology policy, digital rights, government
+            surveillance, and the political dimensions of technology.
+
+    - name: Media
+      description: Terms related to media publishing and distribution.
+      terms:
+        - term: Condé Nast
+          definition: >-
+            The international media company that publishes Wired along with
+            other major titles including Vogue, The New Yorker, and GQ.
+        - term: Long-form Journalism
+          definition: >-
+            In-depth reported articles that explore technology and culture
+            topics in greater depth than typical news coverage.
+        - term: Byline
+          definition: >-
+            The line in a published article that names the author of the piece.
+        - term: Editorial Calendar
+          definition: >-
+            A schedule of planned content topics and publication dates for
+            a media organization.

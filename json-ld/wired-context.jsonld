@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "wired": "https://www.wired.com/vocab/",
+    "Article": "schema:Article",
+    "NewsArticle": "schema:NewsArticle",
+    "title": "schema:headline",
+    "description": "schema:description",
+    "link": "schema:url",
+    "pubDate": "schema:datePublished",
+    "author": "schema:author",
+    "category": "schema:keywords",
+    "guid": "schema:identifier",
+    "content": "schema:articleBody",
+    "thumbnail": "schema:image",
+    "enclosure": "schema:associatedMedia",
+    "RSSFeed": "wired:RSSFeed",
+    "feedUrl": "wired:feedUrl",
+    "feedCategory": "wired:feedCategory",
+    "Organization": "schema:Organization",
+    "Publication": "schema:Periodical",
+    "publisher": "schema:publisher",
+    "Wired": {
+      "@id": "wired:WiredMagazine",
+      "@type": "schema:Periodical"
+    }
+  }
+}

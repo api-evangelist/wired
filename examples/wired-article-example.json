@@ -1,0 +1,16 @@
+{
+  "title": "The Future of AI Agents: What Happens When Every App Has a Brain?",
+  "description": "As AI agents proliferate across enterprise software, security and governance teams face an unprecedented challenge: how do you manage thousands of autonomous systems acting on behalf of your organization?",
+  "link": "https://www.wired.com/story/future-ai-agents-enterprise-security/",
+  "pubDate": "2026-05-01T14:00:00Z",
+  "author": "Emily Chang",
+  "category": ["AI", "Security", "Business"],
+  "guid": "https://www.wired.com/story/future-ai-agents-enterprise-security/",
+  "enclosure": {
+    "url": "https://media.wired.com/photos/ai-agents-hero.jpg",
+    "type": "image/jpeg",
+    "length": 204800
+  },
+  "content": "<p>The proliferation of AI agents across enterprise software has created a new frontier for security teams...</p>",
+  "thumbnail": "https://media.wired.com/photos/ai-agents-hero.jpg"
+}
