@@ -55,6 +55,8 @@ apis:
         url: https://www.wired.com/feed/tag/ai/latest/rss
 
 common:
+  - type: DomainSecurity
+    url: security/wired-domain-security.yml
   - url: https://www.wired.com/
     name: Wired
     type: Website
