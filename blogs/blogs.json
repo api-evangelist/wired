@@ -4,25 +4,25 @@
     {
       "source": "https://www.wired.com/feed/rss",
       "feed_url": "https://www.wired.com/feed/rss",
-      "saved": 40,
+      "saved": 49,
       "title": "WIRED"
     },
     {
       "source": "https://www.wired.com/feed/category/business/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/business/latest/rss",
-      "saved": 4,
+      "saved": 7,
       "title": "Business Latest"
     },
     {
       "source": "https://www.wired.com/feed/category/science/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/science/latest/rss",
-      "saved": 7,
+      "saved": 9,
       "title": "Science Latest"
     },
     {
       "source": "https://www.wired.com/feed/category/security/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/security/latest/rss",
-      "saved": 5,
+      "saved": 2,
       "title": "Security Latest"
     },
     {
@@ -38,6 +38,6 @@
       "title": "Feed: Artificial Intelligence Latest"
     }
   ],
-  "post_count": 840,
-  "fetched": "2026-08-22T20:08:02Z"
+  "post_count": 907,
+  "fetched": "2026-08-30T22:05:13Z"
 }
