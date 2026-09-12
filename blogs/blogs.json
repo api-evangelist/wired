@@ -4,13 +4,13 @@
     {
       "source": "https://www.wired.com/feed/rss",
       "feed_url": "https://www.wired.com/feed/rss",
-      "saved": 49,
+      "saved": 46,
       "title": "WIRED"
     },
     {
       "source": "https://www.wired.com/feed/category/business/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/business/latest/rss",
-      "saved": 7,
+      "saved": 8,
       "title": "Business Latest",
       "nature": "undetermined",
       "nature_basis": null
@@ -18,7 +18,7 @@
     {
       "source": "https://www.wired.com/feed/category/science/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/science/latest/rss",
-      "saved": 9,
+      "saved": 7,
       "title": "Science Latest",
       "nature": "undetermined",
       "nature_basis": null
@@ -26,7 +26,7 @@
     {
       "source": "https://www.wired.com/feed/category/security/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/security/latest/rss",
-      "saved": 2,
+      "saved": 3,
       "title": "Security Latest",
       "nature": "undetermined",
       "nature_basis": null
@@ -44,8 +44,8 @@
       "title": "Feed: Artificial Intelligence Latest"
     }
   ],
-  "post_count": 907,
-  "fetched": "2026-08-30T22:05:13Z",
+  "post_count": 971,
+  "fetched": "2026-09-06T18:58:10Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
