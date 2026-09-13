@@ -4,7 +4,7 @@
     {
       "source": "https://www.wired.com/feed/rss",
       "feed_url": "https://www.wired.com/feed/rss",
-      "saved": 46,
+      "saved": 48,
       "title": "WIRED"
     },
     {
@@ -26,7 +26,7 @@
     {
       "source": "https://www.wired.com/feed/category/security/latest/rss",
       "feed_url": "https://www.wired.com/feed/category/security/latest/rss",
-      "saved": 3,
+      "saved": 4,
       "title": "Security Latest",
       "nature": "undetermined",
       "nature_basis": null
@@ -40,12 +40,12 @@
     {
       "source": "https://www.wired.com/feed/tag/ai/latest/rss",
       "feed_url": "https://www.wired.com/feed/tag/ai/latest/rss",
-      "saved": 0,
+      "saved": 1,
       "title": "Feed: Artificial Intelligence Latest"
     }
   ],
-  "post_count": 971,
-  "fetched": "2026-09-06T18:58:10Z",
+  "post_count": 1039,
+  "fetched": "2026-09-13T12:41:53Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
