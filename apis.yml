@@ -54,7 +54,6 @@ apis:
       and readers to consume Wired content programmatically using any feed
       parsing library or RSS reader tool.
     humanURL: https://www.wired.com/feed/rss
-    baseURL: https://www.wired.com
     tags:
       - Feed
       - Media
