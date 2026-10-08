@@ -77,6 +77,12 @@ apis:
         url: https://www.wired.com/feed/tag/ai/latest/rss
 
 common:
+  - type: Plans
+    url: plans/wired-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/wired-rate-limits.yml
+  - type: FinOps
+    url: finops/wired-finops.yml
   - type: DomainSecurity
     url: security/wired-domain-security.yml
   - url: https://www.wired.com/
