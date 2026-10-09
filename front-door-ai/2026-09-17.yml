@@ -1,0 +1,34 @@
+# Front Door AI Index — wired — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: wired
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: www.wired.com
+  final_host: www.wired.com
+  ownership: own
+  owner: wired
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 15
+  band: 5
+  band_label: prominent
+  host_score: 15
+  density: 13.97
+  words: 1074
+  tiers:
+    agentic: 2
+    core: 10
+    model: 3
+  ambiguous: 5
+  top_terms:
+    AI: 10
+    agent: 4
+    OpenAI: 2
+    AI agent: 1
+    AI assistant: 1
+    Gemini: 1
+    intelligence: 1
